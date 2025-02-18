@@ -1,5 +1,7 @@
 # File-Manager
 Dosya yönetim sistemi
+Sanal bir ortam oluşturulmuştur.
+Streamlit Arayüzü kullanılmıştır.
 1- zipfile, logging, re, streamlit, pathlib, cryptography.fernet, datetime kütüpaneleri
 kullanilarak;
 - fernet ile bir anahtar dosyasi olusturmak,
