@@ -1,8 +1,21 @@
 # File-Manager
 Dosya yönetim sistemi
-Sanal bir ortam oluşturulmuştur.
-Streamlit Arayüzü kullanılmıştır.
-1- zipfile, logging, re, streamlit, pathlib, cryptography.fernet, datetime kütüpaneleri
+## Kurulum
+1. Repository'yi klonlayın:
+  cd FileManager
+
+2. Sanal ortam oluşturun ve aktifleştirin:
+  python -m venv .venv
+  .venv\Scripts\activate  # Windows için
+  source .venv/bin/activate  # Linux/Mac için
+3. Bağımlılıkları yükleyin:
+   pip install -r requirements.txt
+
+4.## Çalıştırma
+  streamlit run filemanager.py
+
+ 
+zipfile, logging, re, streamlit, pathlib, cryptography.fernet, datetime kütüpaneleri
 kullanilarak;
 - fernet ile bir anahtar dosyasi olusturmak,
 - bu anahtar ile dosyamızı encrypt yaparak şifrelemek,
@@ -11,4 +24,4 @@ kullanilarak;
 - bir zip klasörü oluşturararak dosyamızın yedeğini almak,
 - ve yedeği tekrak geri yüklemek.
 
-2-Hata denetimlerini dikkatli bir şekilde yapmak.
+
