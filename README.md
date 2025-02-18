@@ -11,10 +11,10 @@ Dosya yönetim sistemi
 3. Bağımlılıkları yükleyin:
    pip install -r requirements.txt
 
-4.## Çalıştırma
+## Çalıştırma
   streamlit run filemanager.py
 
- 
+## Acıklamalar 
 zipfile, logging, re, streamlit, pathlib, cryptography.fernet, datetime kütüpaneleri
 kullanilarak;
 - fernet ile bir anahtar dosyasi olusturmak,
